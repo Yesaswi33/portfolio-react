@@ -1,0 +1,37 @@
+# Ignore node_modules (large dependency folder)
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore environment and config files
+.env
+.env.*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore large files (>100MB) - GitHub won't allow pushing them anyway
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.exe
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.psd
+*.bak
+*.tmp

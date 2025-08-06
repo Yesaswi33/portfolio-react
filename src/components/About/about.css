@@ -1,0 +1,47 @@
+#about {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.aboutDesc {
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 51rem;
+    line-height: 1.6;
+    color: rgb(220, 220, 220); /* Optional: Light text if dark background */
+}
+
+/* Responsive font sizing similar to skills */
+@media screen and (max-width: 720px) {
+    .aboutDesc {
+        font-size: 2.5vw;
+    }
+
+    .aboutTitle {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutDesc {
+        font-size: 3vw;
+    }
+
+    .aboutTitle {
+        font-size: 7vw;
+    }
+}
